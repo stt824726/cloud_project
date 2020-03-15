@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eureka
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: ${port:2221}
